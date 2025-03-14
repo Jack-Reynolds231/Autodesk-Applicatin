@@ -250,6 +250,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "CommentsForm";
             this.Text = "CommentsForm";
+        
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

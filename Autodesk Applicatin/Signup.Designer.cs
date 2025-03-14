@@ -74,14 +74,7 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 211);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 29);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "First name:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // textBox1
             // 
@@ -132,14 +125,7 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(541, 211);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 29);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Email:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+           
             // 
             // textBox4
             // 
@@ -177,14 +163,7 @@
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(457, 301);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(214, 29);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Confirm password:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+           
             // 
             // panel1
             // 
@@ -307,7 +286,7 @@
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(722, 9);
+            this.label15.Location = new System.Drawing.Point(713, 11);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(54, 37);
             this.label15.TabIndex = 14;
@@ -488,6 +467,7 @@
             this.Name = "Signup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "[Log in here]";
+            
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

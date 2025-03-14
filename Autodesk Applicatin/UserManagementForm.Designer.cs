@@ -170,14 +170,7 @@
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(40, 89);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 20);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Name:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
+           
             // label4
             // 
             this.label4.AutoSize = true;
@@ -211,11 +204,7 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(240, 8);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(211, 26);
-            this.maskedTextBox1.TabIndex = 8;
-            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+          
             // 
             // label10
             // 
